@@ -92,7 +92,7 @@ const BuildWithStacks = () => {
                 <div className="rounded-full bg-[#1F2123] p-3 md:p-5">
                   <div className="flex items-center justify-center w-full gap-3 md:gap-5">
                     <img
-                      src={item.image || "/placeholder.svg"}
+                      src={item.image}
                       alt="img"
                       className="h-[35px] w-[35px] md:h-[45px] md:w-[45px]"
                     />

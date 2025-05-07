@@ -54,7 +54,7 @@ const Banner = () => {
                 <div className="rounded-full bg-[#1F2123] p-3 md:p-5">
                   <div className="flex items-center justify-center w-full md:w-auto gap-3 md:gap-5">
                     <img
-                      src={item.icon || "/placeholder.svg"}
+                      src={item.icon}
                       alt="img"
                       className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]"
                     />

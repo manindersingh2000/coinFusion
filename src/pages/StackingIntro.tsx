@@ -22,14 +22,14 @@ const StackingIntro = () => {
               <p className="bg-gray-200 py-4 sm:py-8 px-8 sm:px-16 rounded-full text-xl sm:text-3xl w-full sm:w-auto text-center">
                 9.5%
               </p>
-              <img src={BitCoin || "/placeholder.svg"} alt="" className="w-16 h-16 md:w-24 md:h-24" />
+              <img src={BitCoin} alt="" className="w-16 h-16 md:w-24 md:h-24" />
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-between bg-[#5546FF] text-white py-4 sm:py-8 px-8 sm:px-16 rounded-full">
               <p className="text-xl sm:text-3xl mb-2 sm:mb-0">$864,896,126</p>
               <p className="text-sm sm:text-base">Total value locked</p>
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-end gap-5 my-3">
-              <img src={StackImg || "/placeholder.svg"} alt="" className="w-24 md:w-auto" />
+              <img src={StackImg} alt="" className="w-24 md:w-auto" />
               <p className="bg-gray-200 rounded-full text-base sm:text-xl py-4 sm:py-8 px-8 sm:px-16 font-bold text-center">
                 Data courtesy of <br />
                 stacking club

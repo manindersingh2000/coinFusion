@@ -3,7 +3,7 @@ import Unleash from "../components/data/stackingData"
 
 const StackUnleashed = () => {
   return (
-    <div className="py-12 md:py-20">
+    <div id="explore" className="py-12 md:py-20">
       <div className="container">
         <div className="flex justify-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center font-bold max-w-2xl">

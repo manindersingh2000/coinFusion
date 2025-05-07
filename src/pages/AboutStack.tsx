@@ -5,7 +5,7 @@ import Jolocam from "../assets/Jolocam.png"
 
 const AboutStack = () => {
   return (
-    <div className="py-20 md:py-40 lg:py-96">
+    <div id="help" className="py-20 md:py-40 lg:py-96">
       <div className="container bg-white">
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-0">
           <div className="px-4 md:px-0">

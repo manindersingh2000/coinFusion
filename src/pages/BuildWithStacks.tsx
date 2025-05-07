@@ -30,7 +30,7 @@ const BuildWithStacks = () => {
   ]
 
   return (
-    <div className="py-16 md:py-24 lg:py-32 bg-black text-white rounded-b-[3rem] md:rounded-b-[5rem] rounded-t-[3rem] md:rounded-t-[5rem]">
+    <div id="join" className="py-16 md:py-24 lg:py-32 bg-black text-white rounded-b-[3rem] md:rounded-b-[5rem] rounded-t-[3rem] md:rounded-t-[5rem]">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 px-4 md:px-16 lg:px-28 gap-8">
           <div className="max-w-full md:max-w-[420px]">

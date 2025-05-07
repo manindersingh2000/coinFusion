@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 /* index.css */
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
     max-width: 92%; /* or whatever size you prefer */
     margin: 0 auto;       /* centers the container */

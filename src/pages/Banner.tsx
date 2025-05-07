@@ -26,7 +26,7 @@ const Banner = () => {
   ]
 
   return (
-    <div className="bg-black rounded-b-[3rem] md:rounded-b-[5rem]">
+    <div id="learn" className="bg-black rounded-b-[3rem] md:rounded-b-[5rem]">
       <div className="container">
         <div className="flex flex-col items-center">
           {/* Main hero section */}

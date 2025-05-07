@@ -1,7 +1,6 @@
 import { useState } from "react"
 import { LuMenu, LuX } from "react-icons/lu"
 import { Link } from "react-router-dom"
-
 type NavItem = {
   title: string;
   href: string;
@@ -12,23 +11,23 @@ const Navbar = () => {
   const navData: NavItem[] = [
     {
       title: "Learn",
-      href: "/",
+      href: "#learn",
     },
     {
       title: "Build",
-      href: "/",
+      href: "#build",
     },
     {
       title: "Explore",
-      href: "/",
+      href: "#explore",
     },
     {
       title: "Join",
-      href: "/",
+      href: "#join",
     },
     {
       title: "Help",
-      href: "/",
+      href: "#help",
     },
   ]
 
@@ -43,9 +42,9 @@ const Navbar = () => {
         {/* Center - Nav Links */}
         <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 space-x-3 lg:space-x-6 text-black font-normal text-sm lg:text-lg bg-white px-8 lg:px-24 py-3 lg:py-5 rounded-full">
           {navData.map((item, index) => (
-            <Link key={index} className="hover:text-blue-600" to={item.href}>
+            <a key={index} className="hover:text-blue-600" href={item.href}>
               {item.title}
-            </Link>
+            </a>
           ))}
         </div>
 
